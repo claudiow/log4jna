@@ -19,6 +19,7 @@
 - [Move from Staging to Central](#movcent)
 - [After Release Tasks](#after)
 - [Roll Back a Release Before Fixing Problems](#rollback)
+- [Common Errors and Fixes](#fixes)
 
 ________  
 
@@ -523,6 +524,27 @@ the remainder of the release process.
    `mvn -B deploy scm-publish:publish-scm -P release`
 
 After deployment in this case, make sure to set everything manually back to next snapshot release.
+
+[TOC](#toc)
+________  
+
+## <a name="fixes"></a>Common Errors and Fixes
+
+Running as Administartor can be tricky for Maven and the release-plugin. We found these problems during our first release to Central.
+
+###  Git error unable to look up github.com:dblock (port 9418) (no such host is known. )
+Git tag fails during `release:perform`
+
+##### Description
+This error message is tricky as it actually refers to the forked `cmd Git tag` not been able to authenticate with GitHub using ssh.
+ 
+
+##### Cause
+When running as Administrator some times Maven plug-gins can't find the user `.ssh` folder in the user home directory. They try to use 
+a `.ssh` directory in the root directory `C:\`
+
+#### Quick solution
+Copy `%USERPROFILE%\.ssh` to `C:\.shh`
 
 [TOC](#toc)
 ________  

@@ -324,6 +324,7 @@ public class Win32EventLogAppender extends AbstractAppender {
 					CATEGORY_COUNT);
 			setVariableKeys(eventMessageFile, categoryMessageFile, eventSourceKeyPath);
 		}
+		
 	}
 
 	/**

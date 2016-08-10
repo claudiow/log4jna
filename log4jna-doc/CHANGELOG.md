@@ -1,4 +1,8 @@
-2.0 (pending)
+2.0.1 (Pending)
+--------------
+* [#30](https://github.com/dblock/log4jna/issues/30): Logs go into the wrong location in EventViwer after Changing configuration
+
+2.0 (08/08/2016)
 --------------
 * [#6](https://github.com/dblock/log4jna/issues/6): Distribute to Maven Central
 * [#7](https://github.com/dblock/log4jna/pull/8): Upgrade to log4j2 - [@cstorey](https://github.com/cstorey).

@@ -14,23 +14,26 @@ Unlike the native implementation(s) in Log4j<sup>TM</sup>, this project uses [JN
 
 See the [Downloads](#dw) section bellow to get Log4JNA.
 
-See [Maven, Ivy, and Gradle Artifacts](MAVENIVYGRADLE.md) to include Log4JNA from Maven Central
+See [Maven, Ivy, and Gradle Artifacts](log4jna-doc/MAVENIVYGRADLE.md) to include Log4JNA from Maven Central
 
 #### Using Log4JNA
 
-See [Log4JNA configuration](USAGE.md) for instructions and tips.
+See [Log4JNA configuration](log4jna-doc/USAGE.md) for instructions and tips.
 
-See the [FAQ](FAQ.md) for common problems and solutions.
+See the [FAQ](log4jna-doc/FAQ.md) for common problems and solutions.
 
 ## Developing Log4JNA
-See [Contributing](CONTRIBUTING.md) for a primer on how to help on Log4JNA development.
+See [Contributing](log4jna-doc/CONTRIBUTING.md) for a primer on how to help on Log4JNA development.
 
-See [Development Environment Set Up](ENVIRONMENT.md) for some tips and requirements before starting.
+See [Development Environment Set Up](log4jna-doc/ENVIRONMENT.md) for some tips and requirements before starting.
+
+See [Manual Release To Maven Central](log4jna-doc/MavenRelease) for instructions to release from your local environment.
+
 
 ## <a name="dw"></a>Downloads
 #### Log4JNA 2 for Log4j 2.x
 
-| Current Release | Latest Develpment |
+| Current Release | Latest Development |
 | ------------- |------------- |
 | [Log4jna Api 2.0](https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=org.dblock.log4jna&a=log4jna-api&v=RELEASE&e=jar) | [Log4JNA Api 2.0.1-SNAPSHOT](https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=org.dblock.log4jna&a=log4jna-api&v=LATEST&e=jar) |
 | [Log4jna Demo 2.0](https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=org.dblock.log4jna&a=log4jna-demo&v=RELEASE&e=jar) | [Log4JNA Demo 2.0.1-SNAPSHOT](https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=org.dblock.log4jna&a=log4jna-demo&v=LATEST&e=jar) |
